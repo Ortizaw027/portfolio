@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Antonio Ortiz Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8a351aa2e7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/Logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm<br>Antonio Ortiz</h1>
+            <br>
+            <p>Welcome to my Portfolio Website</p>
+        </div>
+    </div>
+</div>
+<!--About Me-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/user.png" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Junior in the ECE program at SUNY Polytechnic Institute of Technology.
+                    I enjoy learning new things and gaining a better understanding of how things work.
+                    Some of my hobbies include Rock Climbing, Electronics, and Working Out.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p> 
+                    <p class="tab-links" onclick="opentab('coursework')">Relevant Coursework</p>           
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>C/C++</span></li>
+                        <li><span>Python</span></li>
+                        <li><span>Javascript</span></li>
+                        <li><span>HTML</span></li>
+                        <li><span>Assembly Language</span></li>
+                        <li><span>Circuit Analysis</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span><b><u>SUNY Polytechnic Institute of Technology</u></b></span><br><br><span>BS in Electrical + Computer Engineering with a concentration in Computer Engineering</span><br><br>Expected May 2025</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="coursework">
+                    <ul>
+                        <li><span><b><u>ECE 252 - Computer Organization and Microprocessors</u></b></span><br><br>Organization of computer systems:  processor, memory, I/O organization, instruction encoding and addressing modes.  Introduction to microprocessors and microcontrollers.  Design of hardware and software for microprocessor applications.  Assembly language programming.  Microprocessor system case studies.</li>
+                        <li><span><b><u>ECE 260 - Electric Circuits</u></b></span><br><br>Units and definitions.  Ohm’s Law and Kirchhoff’s Laws.  Analysis of resistive circuits.  Circuit analysis techniques:  Nodal and mesh methods, Norton and Thevenin theorems, maximum power transfer. Capacitance, inductance and the natural and step response of RL, RC and RLC phasor analysis of AC circuits
+                        </li>
+                        <li><span><b><u>ECE 315 - Electronics I</u></b></span><br><br> Introduction to electronics concentrating on the fundamental devices (diode, transistor, operational amplifier, logic gate) and their basic applications; modeling techniques; elementary circuit design based on devices, laboratory exercises. 
+                        </li>
+                        <li><span><b><u>ECE 351 - Digital System Design</u></b></span><br><br> Synchronous sequential circuit design.  Algorithmic state machine method; state reduction; control-datapath circuit partitioning.  Design of sequential arithmetic circuits.  Memory interfacing; bus-based design.  Specification and synthesis of digital systems using hardware description language and implementation using programmable logic devices.  Simulation, analysis, testing, and verification of digital systems</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---Portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work-1.png">
+                <div class="layer">
+                    <h3>Project 1</h3>
+                    <p>description</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-1.png">
+                <div class="layer">
+                    <h3>Project 2</h3>
+                    <p>description</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-1.png">
+                <div class="layer">
+                    <h3>Project 3</h3>
+                    <p>description</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-1.png">
+                <div class="layer">
+                    <h3>Project 4</h3>
+                    <p>description</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!---Contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> Ortizaw027@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> (845)499-0186</p>
+                <div class="social-icons">
+                      <a href="http://www.linkedin.com/in/antonio-ortiz-b48177249"><i class="fa-brands fa-linkedin"></i></a>
+                      <a href="https://github.com/Ortizaw027"><i class="fa-brands fa-github"></i></a>
+                      <a href="https://www.youtube.com/channel/UCMwGCHWaS3xtBqUHiLmvZyQ"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            <a href="/Images/Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                     <input type="text" name="Name" placeholder="Your Name" required>
+                     <input type="email" name="Email" placeholder="Your Email" required>
+                     <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                     <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+        </div>
+     </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright ©. Made with <i class="fa-solid fa-computer"></i> by Antonio Ortiz</p>
+  </div>
+</div>
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");   
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+        
+    }
+</script>
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwogfSSP54HnRWct9BVgGzHeS4NZ9QqAgq01JCqzks5iiKnyb4XrrrJ-Jl8TcyLcEUb/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Succesfully!!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
