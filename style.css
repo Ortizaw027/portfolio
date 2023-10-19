@@ -341,3 +341,42 @@ nav .fa-solid{
     margin-top: -40px;
     display: block;
 }
+* Add any specific styles for your project page here */
+#project {
+    padding: 80px 0;
+    color: #d1d3d5;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.project-image {
+    flex-basis: 50%;
+}
+
+.project-image img {
+    width: 100%;
+    max-width: 300px; /* Adjust the size of the image as needed */
+    border-radius: 10px;
+}
+
+.project-details {
+    flex-basis: 50%;
+    padding: 0 20px;
+}
+
+.project-details h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Add any additional styles as needed */
