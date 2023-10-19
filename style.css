@@ -335,6 +335,37 @@ nav .fa-solid{
 
 
     }
+    /* Add responsive styles for smaller screens for project.index */
+@media (max-width: 768px) {
+    .project {
+        flex-direction: column;
+    }
+
+    .project-image {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .project-image img {
+        max-width: 100%;
+    }
+
+    .project-details {
+        flex-basis: 100%;
+        padding: 20px 0;
+    }
+    
+    .project-details h1 {
+        text-align: center;
+    }
+}
+In this code, a media query is used to change the layout of the project.html page when the screen width is 768 pixels or smaller. The changes include stacking the project image and details vertically and centering them for better display on smaller screens. You can adjust the max-width values and other styles as needed to suit your design preferences.
+
+
+
+
+
+
 }
 #msg{
     color: #39FF14;
