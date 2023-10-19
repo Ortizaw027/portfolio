@@ -336,7 +336,7 @@ nav .fa-solid{
 
     }
     /* Add responsive styles for smaller screens for project.index */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .project {
         flex-direction: column;
     }
