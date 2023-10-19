@@ -1,2 +1,2 @@
 #My portfolio website
-#Contains some projcets I have completed
+#Contains some projects I have completed
